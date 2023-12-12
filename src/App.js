@@ -1,5 +1,6 @@
-import Todos from "./components/Todos";
+import Todos from "./components/RemoveTodo";
 import AddTodo from "./components/AddTodo"
+import TodoItem from "./components/UpdateTodo"
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
     <h1>learn about toolkit</h1>
     <AddTodo />
     <Todos />
+    <TodoItem />
     
     </>
   )
